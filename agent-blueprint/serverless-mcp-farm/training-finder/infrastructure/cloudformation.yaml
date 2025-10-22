@@ -117,7 +117,7 @@ Resources:
   MCPEndpointParameter:
     Type: AWS::SSM::Parameter
     Properties:
-      Name: '/mcp/endpoints/serverless/-finder'
+      Name: '/mcp/endpoints/serverless/training-finder'
       Type: String
       Value: !Sub 'https://${ApiGateway}.execute-api.${AWS::Region}.amazonaws.com/prod/mcp'
       Description: 'Training Finder MCP Server endpoint URL'
